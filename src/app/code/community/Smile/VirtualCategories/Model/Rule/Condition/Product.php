@@ -36,7 +36,7 @@ class Smile_VirtualCategories_Model_Rule_Condition_Product extends Mage_CatalogR
         '>='  => '#{field}:[#{value} TO *]',
         '<='  => '#{field}:[* TO #{value}]',
         '>'   => '#{field}:{#{value} TO *]',
-        '<'   => '#{field}:[* TO #{value}}',
+        '<'   => '#{field}:[* TO #{value}]',
         '{}'  => '#{field}:*#{value}*',
         '!{}' => '-(#{field}:*#{value}*)'
     );
